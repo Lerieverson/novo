@@ -1,0 +1,23 @@
+.corpo{
+    background-color: darkgoldenrod;
+}
+.cabeca{
+    background-color: brown;
+     align-content: center;
+   
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:aliceblue;
+   
+    
+    
+}
+a{
+    color:aqua;
+    text-decoration:none;
+    font-size: 20px;
+    ;
+}
