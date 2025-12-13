@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IMC 2</title>
+  <link rel="stylesheet" href="folha.css">
+  <script src="imc02.js"></script>
+</head>
+<body>
+  <div class="container">
+        <h1>Calculadora de IMC Personal</h1>
+
+        <label for="peso">Peso (kg):</label>
+        <input type="number" id="peso" placeholder="Ex: 70">
+
+        <label for="altura">Altura (m):</label>
+        <input type="number" id="altura" step="0.01" placeholder="Ex: 1.75">
+
+        <button onclick="calcularIMC()">Calcular</button>
+
+        <div class="barra-container">
+            <div class="barra" id="barra"></div>
+        </div>
+
+        <p id="resultado"></p>
+        <p id="classificacao"></p>
+    </div>
+</body>
+</html>
